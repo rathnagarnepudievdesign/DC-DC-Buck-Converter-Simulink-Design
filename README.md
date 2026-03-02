@@ -7,6 +7,7 @@ This project involves the design and simulation of a DC-DC Buck Converter (Step-
 
 
 The system is modeled in MATLAB/Simulink to analyze:
+
 Output voltage regulation
 Inductor current ripple
 Duty cycle variation
@@ -23,7 +24,9 @@ Capacitor C = 200 µF = 200 × 10⁻⁶ F
 Load Resistance R = 10 Ω
 PI Controller Gains: Kp=4;
                      Ki=0.01;
+					 
 Main Components & Function
+
 1️⃣ MOSFET Switch
 
 Acts as a high-speed switching element controlled by PWM signal.
